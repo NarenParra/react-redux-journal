@@ -1,5 +1,9 @@
-import Reacta from "react";
+import React from "react";
 
-const Preloader = () => {
-  return <div className="preloader"></div>;
+export const Preloader = () => {
+  return (
+    <div className="auth__main">
+      <div className="preloader"></div>;
+    </div>
+  );
 };
